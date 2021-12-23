@@ -4,3 +4,8 @@
 # ubuntuをベースイメージとして使用
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
+
+# RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y tzdata
+# timezone setting
+ENV TZ=Asia/Tokyo
