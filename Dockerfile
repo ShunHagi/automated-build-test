@@ -59,5 +59,3 @@ EXPOSE 9004 8888
 # Tabpyを実行
 CMD ["tabpy", "--config=/D-LogInsights/40_TableauPrep_Configs/tabpy.conf"]
 
-ENV AUTHOR="Shun Haginouchi"
-
